@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script type="text/javascript" src="scripts.js"></script>
-<title>Insert title here</title>
+	<title>Form to create a new resource</title>
 </head>
 <body>
-	<script>
-		document.write(Date());
-	</script>
-	<button id="button">Get Users</button>
-	<table id="usersTable"></table>
+	<form action="../bg.elsys.ip/rest/cars" method="POST">
+		<label for="id">ID</label>
+		<input name="id" />
+		<br/>
+		<label for="car">Name</label>
+		<input name="car" />
+		<br/>
+		Model:
+		<TEXTAREA NAME="model" COLS=40 ROWS=6></TEXTAREA>
+        <br/>
+        <input type="submit" value="Submit" />
+        </form>
 </body>
 </html>

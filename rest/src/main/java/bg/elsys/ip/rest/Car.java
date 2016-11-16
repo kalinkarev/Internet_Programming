@@ -1,35 +1,37 @@
 package bg.elsys.ip.rest;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Car {
-	int id;
-	String name;
+	String id;
+	String car;
 	String model;
 	
 	public Car() {
 	
 	}
 
-	public Car(int id, String name, String model) {
+	public Car(String id, String car) {
 		super();
 		this.id = id;
-		this.name = name;
-		this.model= model;
+		this.car = car;
 	}
 
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
 	public String getName() {
-		return name;
+		return car;
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		this.car = name;
 	}
 	
 	public String getModel() {
@@ -41,3 +43,25 @@ public class Car {
 	}
 
 }
+
+/*
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		document.write(Date());
+	</script>
+	<button id="button">Get Users</button>
+	<button id="how_users">Users</button>
+	<table id="usersTable"></table>
+</body>
+</html>
+-->
+*/
