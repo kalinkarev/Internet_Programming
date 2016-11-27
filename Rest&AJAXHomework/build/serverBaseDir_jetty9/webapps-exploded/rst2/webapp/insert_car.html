@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert new car</title>
+	<script src = "//ajax.ggogleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+	<form action = "api/cars/insert_car" method = "POST">
+		<label for = "name">Name</label>
+		<input name = "name" type = "text">
+		<br />
+		
+		<label for = "model">Model</label>
+		<input name = "model" type = "text">
+		<br />
+		
+		<label for = "year_produced">Year</label>
+		<input name = "year_produced" type = "text">
+		<br />
+		
+		<label for = "color">Color</label>
+		<input name = "color" type = "text">
+		<br />
+		
+		<label for = "fuel">Fuel</label>
+		<input name = "fuel" type = "text">
+		<br />
+		
+		<input type = "submit" value = "Insert Car">
+	</form>
+</body>
+</html>
