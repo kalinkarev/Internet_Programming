@@ -19,13 +19,13 @@ public class CarService {
 	private List<Car> carList = new ArrayList<>();
 
 	public CarService() {
-		carList.add(new Car("George", "A5", 2010, "Germeny", "diesenel"));
-		carList.add(new Car("John", "Sline", 2007, "Germany", "benzin"));
-		carList.add(new Car("Ivan", "X5", 2006, "Germany", "diesel"));
-		carList.add(new Car("George", "Skoda", 2005, "Chehia", "gas"));
-		carList.add(new Car("John", "Merseces-Benz", 2003, "Germany", "benzin"));
-		carList.add(new Car("Ivan", "MiniCooper", 2002, "Germany", "benzin"));
-		carList.add(new Car("Svetlio", "X6", 2001, "Germany", "diesel"));
+		carList.add(new Car("Audi", "A5", 2010, "Germeny", "diesenel"));
+		carList.add(new Car("Audi", "Sline", 2007, "Germany", "benzin"));
+		carList.add(new Car("BMW", "X5", 2006, "Germany", "diesel"));
+		carList.add(new Car("Skoda", "Superb", 2005, "Chehia", "gas"));
+		carList.add(new Car("Mercedes-Benz", "E-class", 2003, "Germany", "benzin"));
+		carList.add(new Car("MiniCooper", "S", 2002, "Germany", "benzin"));
+		carList.add(new Car("BMW", "X6", 2001, "Germany", "diesel"));
 		
 	}
 	

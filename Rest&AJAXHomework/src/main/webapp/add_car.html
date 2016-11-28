@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car</title>
+	<link rel = "stylesheet" href = "css/styles.css" />
+	<meta charset="UTF-8">
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+
+	<div class = "header">
+		<input type = "text" id = "searchKey"/>
+		<button id = "btnSearch">Search</button>
+		<button id = "btnAdd">New Car</button>
+	</div>
+
+	<div class = "leftArea">
+		<ul id = "carList"></ul>
+	</div>
+
+	<form id = "carForm">
+		<div class = "mainArea">
+			<label>Name:</label>
+			<input name = "name" type = "text" />
+		
+			<label>Model:</label>
+			<input name = "model" type = "text" />
+		
+			<label>Year:</label>
+			<input name = "year" type = "text" />
+			
+			<label>Country:</label>
+			<input name = "produced_where" type = "text" />
+			
+			<label>Fuel:</label>
+			<input name = "fuel" type = "text" />
+		
+			<button id = "btnSave">Save</button>
+		</div>
+	</form>
+
+</body>
+</html>
